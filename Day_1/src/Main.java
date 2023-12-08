@@ -21,18 +21,13 @@ public class Main {
         EIGHT(8, "eight"),
         NINE(9, "nine");
 
-        private int id;
-        private String description;
+        private final int id;
+        private final String description;
 
         Numbers(int id, String description) {
             this.id = id;
             this.description = description;
         }
-
-        public int getId() {
-            return id;
-        }
-
     }
 
     public static void main(String[] args) throws IOException {
