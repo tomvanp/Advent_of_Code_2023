@@ -27,3 +27,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/Day_3/src/MainTest.java
